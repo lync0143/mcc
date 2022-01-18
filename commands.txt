@@ -1,0 +1,24 @@
+# create a new branch
+git checkout -b work
+
+# add a requirements section to the README
+echo >> README.md
+echo "Requirements" >> README.md
+echo "------------" >> README.md
+echo "Java 11" >> README.md
+
+# commit the changes on the work branch
+git add README.md
+git commit -m "Add requirements section to README."
+
+# switch back to main branch
+git checkout main
+
+# add a usage section to the README
+echo >> README.md
+echo "Usage: ./gradlew bootRun" >> README.md
+
+
+# commit the changes on the main branch
+git add README.md
+git commit -m "Add usage notes to README."
