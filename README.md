@@ -20,3 +20,7 @@ If the register succeeded, success, otherwise failure.
 Local Change
 ------------
 This is a local change.
+
+Remote Change
+-------------
+This is a change on the remote.
