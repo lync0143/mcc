@@ -16,3 +16,7 @@ A list of email addresses to register.
 Output
 ------
 If the register succeeded, success, otherwise failure.
+
+Local Change
+------------
+This is a local change.
